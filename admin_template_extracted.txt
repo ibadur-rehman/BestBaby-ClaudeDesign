@@ -5638,7 +5638,7 @@ class Component extends DCLogic {
           self.say("Signed in as " + match.name + " · " + self.roleLabel(match.role) + ".");
         }, 450);
       },
-      backToSite: function () { window.location.href = "../landing.html"; },
+      backToSite: function () { window.location.href = "../index.html"; },
       accountOpen: s.accountOpen,
       accountStyle: "display:flex;align-items:center;gap:9px;padding:5px 9px 5px 5px;border-radius:9999px;cursor:pointer;background:" +
         (s.accountOpen ? C.ivory : "transparent") + ";border:1px solid " + (s.accountOpen ? C.sand : "transparent"),

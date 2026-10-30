@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Replace one image inside a BestBaby single-file bundle.
 
-The bundles (landing.html, admin/admin.html) carry their assets base64-encoded in a
+The bundles (index.html, admin/index.html) carry their assets base64-encoded in a
 `__bundler/manifest` JSON blob, keyed by UUID. `__bundler/ext_resources` maps friendly
 names (stageImg0..3) onto those UUIDs. This swaps one entry in place and sets the
 declared mime from the file's real magic bytes, so the manifest stays honest.
@@ -98,7 +98,7 @@ def resolve(target, man, names):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--bundle', default='landing.html')
+    ap.add_argument('--bundle', default='index.html')
     ap.add_argument('--target', help='stageImg2, or a UUID prefix')
     ap.add_argument('--file', help='replacement image on disk')
     ap.add_argument('--list', action='store_true')

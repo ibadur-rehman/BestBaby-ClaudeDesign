@@ -1,11 +1,11 @@
 # PRD — BestBaby Landing & Platform
 
-**Product Requirements Document** for `landing.html`.
+**Product Requirements Document** for `index.html`.
 
 | | |
 | --- | --- |
 | Product | BestBaby.org: public landing page, private-beta access, onboarding and the signed-in platform |
-| Artefact | `landing.html`, a self-unpacking offline bundle (~7.7 MB) |
+| Artefact | `index.html`, a self-unpacking offline bundle (~7.7 MB) |
 | Status | Clickable design prototype. No backend; a little state in `localStorage` |
 | Preview frame | 1440 × 1024 |
 | Companion doc | [`admin/Admin_PRD.md`](admin/Admin_PRD.md), the staff admin console |

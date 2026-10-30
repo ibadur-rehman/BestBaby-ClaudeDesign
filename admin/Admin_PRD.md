@@ -1,11 +1,11 @@
 # PRD — BestBaby Admin Console
 
-**Product Requirements Document** for `admin/admin.html`.
+**Product Requirements Document** for `admin/index.html`.
 
 | | |
 | --- | --- |
 | Product | BestBaby.org: Admin console (back office) |
-| Artefact | `admin/admin.html`, a self-unpacking offline bundle (~1 MB) |
+| Artefact | `admin/index.html`, a self-unpacking offline bundle (~1 MB) |
 | Status | Clickable design prototype. No backend, no persistence |
 | Preview frame | 1440 × 940 |
 | Companion doc | [`../Landing_PRD.md`](../Landing_PRD.md), the public site and signed-in platform |
